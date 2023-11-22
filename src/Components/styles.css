@@ -1,0 +1,61 @@
+.headerBorder{
+    border:5px solid;
+    border-color: orange;
+    padding: 10px;
+    display:block;
+}
+.headerText{
+    background-color: rgb(108, 255, 108);
+    display: flex;
+    justify-content: center;
+    color: blue;
+}
+.headerText2{
+    background-color: rgb(255, 93, 93);
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.NavBarContainer{
+    background-color: blanchedalmond;
+    display: flex;
+}
+.HyperLink{
+    margin-left: 10px;
+}
+
+.gridContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid black;
+}
+.grid{
+    width:50%;
+    height:60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px;
+    grid-auto-flow: row;
+}
+.gridItem{
+    display: flex;
+    justify-content: center;
+    border: 3px solid orange;
+    height: 50px;
+    width: auto;
+}
+
+.Footer{
+    display: flex;
+    justify-content: center;
+    height: 10%;
+    border: 3px solid green;
+    color: blue;
+}
+
+.button{
+    height: 50px;
+    width: 50px;
+}
